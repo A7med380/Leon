@@ -5,6 +5,7 @@
   --section-padding: 60px;
   --section-background-color: #f6f6f6;
   --section-color: #777;
+  --main-transition: 0.3s;
 }
 /* End Variablse */
 /* Start Global Rules */
@@ -317,6 +318,7 @@ body {
   background-color: white;
   cursor: pointer;
   box-shadow: 0 4rem 14rem 0 rgb(0 0 0 / 11%);
+  transition: var(--main-transition); /* New Added */
 }
 
 .portfolio .portfolio-content .card:hover {
@@ -468,6 +470,7 @@ body {
   margin: 0 10px;
   cursor: pointer;
   color: var(--secondary-color);
+  transition: var(--main-transition); /* New Added */
 }
 
 .contact .info i:hover {
